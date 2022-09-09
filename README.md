@@ -1,6 +1,9 @@
-# How to use CJMCU
+# Comment faire du boundary-scan avec le CJMCU-232H
 
-Example to show how to use CJMCU to perform boundary scan with Panduza.
+
+Example to show how to use CJMCU-232H chip to perform boundary scan with Panduza.
+
+
 
 
 
@@ -20,7 +23,10 @@ Example to show how to use CJMCU to perform boundary scan with Panduza.
 | D2        | (15) ADBUSS2  | TDO/DO    |
 | D3        | (16) ADBUSS3  | TMS/CS    |
 
-![](img/components_FT232H_sch.png)
+![](img/ADAFRUIT_FT232H_schematics.png)
+
+
+![](img/CJMCU-232H.png)
 
 
 
