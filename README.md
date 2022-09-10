@@ -5,7 +5,7 @@
 
 
 
-## On the Adafruit FT232H Breakout / CJMCU (clone)
+## JTAG Pinout & Connexions
 
 | CJMCU     | FT232H        | Function  |
 |-----------|---------------|-----------|
