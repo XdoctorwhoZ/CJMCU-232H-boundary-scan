@@ -1,10 +1,5 @@
 # Comment faire du boundary-scan avec le CJMCU-232H ?
 
-## WATCHME
-
-
-
-
 ## JTAG Pinout & Connexions
 
 | CJMCU     | FT232H        | Function  |
@@ -17,6 +12,9 @@
 ![](img/JTAG-CHAIN-CONNECTIONS.png)
 ![](img/DEVKIT-MPC5744P-JTAG.png)
 ![](img/CJMCU-232H-JTAG.png)
+
+Schemas de la carte ADAFRUIT_FT232H (similaire à la carte CJMCU)
+
 ![](img/ADAFRUIT_FT232H_schematics.png)
 
 
