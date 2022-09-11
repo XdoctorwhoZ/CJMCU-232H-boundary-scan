@@ -1,0 +1,20 @@
+version: '3'
+ 
+services:
+
+  mosquitto:
+    image: eclipse-mosquitto
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./data/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf 
+
+  panduza-platform:
+    image: panduza-cxx-platform
+    # image: ghcr.io/panduza/panduza-cxx-platform:create-github-action
+    network_mode: host
+    privileged: true
+    volumes:
+      - ./data/panduza/tree.json:/etc/panduza/tree.json
+
