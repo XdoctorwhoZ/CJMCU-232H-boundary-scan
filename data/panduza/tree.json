@@ -10,12 +10,21 @@
                     "driver": "Scan_service",
                     "settings": {
                         "probe_name" : "FT2232HL A FT6RR4EEA",
+                        "BSDL" : "257BGA_cut2_1.bsdl",
                         "pin"  : "%r",
                         "behaviour" : "static"
-                    }
+                    },
+                    "repeated": [
+                        "C_11",
+                        "C_12",
+                        "C_13"
+                    ]
                 }
             ]
         }
     }
 }
 
+
+
+                    
