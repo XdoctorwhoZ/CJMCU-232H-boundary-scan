@@ -9,7 +9,7 @@
                     "name": "IO_%r",
                     "driver": "Scan_service",
                     "settings": {
-                        "probe_name" : "FT2232HL A FT6RR4EEA",
+                        "probe_name" : "Single RS232-HS",
                         "BSDL" : "257BGA_cut2_1.bsdl",
                         "pin"  : "%r",
                         "behaviour" : "static"
